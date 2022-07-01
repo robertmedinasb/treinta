@@ -5,7 +5,7 @@ import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 import {applyPolyfills, defineCustomElements} from 'h8k-components/loader';
 
-const CORRECTIONS = {
+export const CORRECTIONS = {
   'realy': 'really',
   'wierd': 'weird',
 };
